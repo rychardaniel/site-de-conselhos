@@ -9,8 +9,6 @@ section {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: auto;
-    height: auto;
     background: #7D776c;
     text-align: center;
     padding: 25px;
@@ -38,4 +36,40 @@ button {
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    section {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        background: #7D776c;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    header {
+        font: normal 30px Arial;
+    }
+
+    #conselhos {
+        background: #988d78;
+        font: normal 15px Arial;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+    #botao {
+        margin-top: 0px;
+    }
+
+    button {
+        background-color: white;
+        border-radius: 5px;
+        font-size: 17px;
+        cursor: pointer;
+    }
 }
