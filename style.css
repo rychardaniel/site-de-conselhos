@@ -1,0 +1,41 @@
+body {
+    background: #987F69;
+    color: white;
+    font: normal 30px Arial;
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    background: #7D776c;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+header {
+    font: normal 40px Arial;
+}
+
+#conselhos {
+    background: #988d78;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#botao {
+    margin-top: 25px;
+}
+
+button {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
