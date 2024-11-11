@@ -39,6 +39,12 @@ button {
 }
 
 @media (max-width: 600px) {
+    body {
+        background: #987F69;
+        color: white;
+        font: normal 30px Arial;
+    }
+    
     section {
         position: absolute;
         left: 50%;
